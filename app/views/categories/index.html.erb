@@ -1,0 +1,15 @@
+<h1>Soup Categories</h1>
+<ul>
+  <% @categories.each do |category| %>
+  <li><%=link_to category.name,category%>(<%=category.soups.count%>) </li>
+  <% end %>
+  <%if session[:vip] %>
+  <li>Super Secret Bouilon</li>
+  <%end %>
+</ul>
+<%if session[:admin]%>
+<%=link_to "Log out from admin",logout_path%>
+<%end%>
+<%if session[:vip] %>
+<p><%=link_to "Hide secret",secret_soups_no_path %></p>
+<%end %>
