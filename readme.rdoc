@@ -1,0 +1,7 @@
+This is my version of Soup-to-Bits Rails for Zombies,Added some extra things:go to /admin and /secret_soups
+
+
+https://desolate-tundra-1114.herokuapp.com/
+
+
+Secret routes:https://desolate-tundra-1114.herokuapp.com/admin AND https://desolate-tundra-1114.herokuapp.com/secret_soups
